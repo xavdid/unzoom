@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Unzoom",
+  "description": "This extension closes zoom.us call tabs after a few seconds",
+  "version": "1.0.0",
+
+  "icons": {
+    "16": "images/icon_16.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
+  },
+  "//note": "see this for help: https://chromium.googlesource.com/chromium/src/+/master/chrome/common/extensions/docs/examples/api/pageAction/pageaction_by_url/manifest.json",
+  "background": {
+    "scripts": ["app.js"],
+    "persistent": false
+  },
+
+
+  "permissions": [
+    "tabs"
+  ]
+}
