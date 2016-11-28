@@ -3,7 +3,7 @@
 
   "name": "Unzoom",
   "description": "This extension closes zoom.us call tabs after a few seconds",
-  "version": "1.0.0",
+  "version": "1.0.1",
 
   "icons": {
     "16": "images/icon_16.png",
